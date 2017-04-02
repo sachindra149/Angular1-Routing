@@ -1,0 +1,195 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*  Variables  */
+/* line 13, ../sass/stylesheet.scss */
+body {
+  padding: 0px;
+  margin: 0px;
+  background: url("../images/bg.jpg") repeat #5A2D81 fixed;
+  font-size: 15px;
+  background-size: cover;
+  font-family: 'Coda', cursive;
+  color: #ffffff;
+}
+
+/* line 16, ../sass/stylesheet.scss */
+header, section, footer {
+  float: left;
+  width: 100%;
+}
+
+/* line 19, ../sass/stylesheet.scss */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url("../images/banner_overlay.png") rgba(0, 0, 0, 0.8);
+}
+
+/* line 23, ../sass/stylesheet.scss */
+header .top_header {
+  background: #5A2D81;
+  float: left;
+  width: 100%;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 35px;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+/* line 27, ../sass/stylesheet.scss */
+section {
+  padding: 15px 0px;
+}
+/* line 29, ../sass/stylesheet.scss */
+section .sub_banner {
+  float: left;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* line 32, ../sass/stylesheet.scss */
+section .navbar-default {
+  margin-top: 15px;
+  background: url("../images/bg.png") repeat #0b0213;
+  border: 0px;
+}
+/* line 35, ../sass/stylesheet.scss */
+section .navbar-default .container-fluid {
+  padding: 0px;
+}
+/* line 38, ../sass/stylesheet.scss */
+section .navbar-default .container-fluid .collapse {
+  padding: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* line 43, ../sass/stylesheet.scss */
+section .navbar-default .container-fluid .collapse ul.navbar-nav li a {
+  padding: 0px 50px;
+  line-height: 50px;
+  color: #ffffff;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-left: 1px solid rgba(0, 0, 0, 0.75);
+}
+/* line 45, ../sass/stylesheet.scss */
+section .navbar-default .container-fluid .collapse ul.navbar-nav li a:hover, section .navbar-default .container-fluid .collapse ul.navbar-nav li a:focus {
+  background: #5A2D81;
+}
+/* line 50, ../sass/stylesheet.scss */
+section .navbar-default .container-fluid .collapse ul.navbar-nav li.active a {
+  background: #5A2D81;
+}
+/* line 55, ../sass/stylesheet.scss */
+section .navbar-default .container-fluid .collapse ul.navbar-nav li:last-child a {
+  border-right: 0px;
+}
+/* line 60, ../sass/stylesheet.scss */
+section .navbar-default .container-fluid .collapse ul.navbar-nav li:first-child a {
+  border-left: 0px;
+}
+/* line 70, ../sass/stylesheet.scss */
+section .container .content {
+  text-shadow: 1px 1px 1px #000000;
+}
+/* line 72, ../sass/stylesheet.scss */
+section .container .content h1 {
+  padding: 20px 0px 35px 0px;
+  font-size: 24px;
+}
+/* line 75, ../sass/stylesheet.scss */
+section .container .content p {
+  line-height: 22px;
+  padding: 0px 0px 25px 0px;
+}
+/* line 78, ../sass/stylesheet.scss */
+section .container .content ul {
+  padding: 0px 0px 20px 0px;
+}
+/* line 80, ../sass/stylesheet.scss */
+section .container .content ul li {
+  line-height: 30px;
+}
+
+/* line 87, ../sass/stylesheet.scss */
+.footer_block {
+  background: black;
+  line-height: 35px;
+  font-size: 13px;
+}
+
+/* line 90, ../sass/stylesheet.scss */
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url(../images/loader.gif) no-repeat center center rgba(0, 0, 0, 0.75);
+  z-index: 99999;
+  top: 0px;
+  left: 0px;
+}
